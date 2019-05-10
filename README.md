@@ -101,6 +101,8 @@ These variables can be used if you need them.
 - (string) $this->response : Plain body Response from Curl execution.
 - (int) $this->http_code : HTTP Code from Curl execution.
 
+- (string) $this->access_token : You can take Access Token from this variable.
+
 - (array) $this->curl_options : Allow you to set extra Curl Options. (You can modify this variable.)
 - (int) $this->device_id : Allow you to change device_id parameter. (You can modify this variable.)
 - (int) $this->mobile_tracking : Allow you to change mobile_tracking parameter. (You can modify this variable.)
